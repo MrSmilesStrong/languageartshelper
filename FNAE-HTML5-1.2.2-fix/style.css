@@ -393,8 +393,8 @@ button {
 .vent-icon.speeding-up {
     animation: spin-slow 3s linear infinite;
 }
-    animation: spin 0.8s linear infinite;
-}
+    animation{ spin: 0.8s linear infinite;
+    }
 
 @keyframes spin {
     from {
