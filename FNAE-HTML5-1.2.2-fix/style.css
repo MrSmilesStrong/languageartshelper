@@ -13,14 +13,11 @@ body {
     padding: 0;
     width: 100%;
     height: 100%;
-    /* 禁用文本选择 */
     user-select: none;
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
-    /* 禁用触摸时的高亮 */
     -webkit-tap-highlight-color: transparent;
-    /* 禁用拖拽 */
     -webkit-user-drag: none;
     -khtml-user-drag: none;
     -moz-user-drag: none;
@@ -28,7 +25,6 @@ body {
     user-drag: none;
 }
 
-/* 禁用所有元素的选择和拖拽 - 使用!important确保优先级 */
 * {
     user-select: none !important;
     -webkit-user-select: none !important;
@@ -42,7 +38,6 @@ body {
     -webkit-touch-callout: none !important;
 }
 
-/* 特别针对文本元素 */
 div, span, p, h1, h2, h3, h4, h5, h6, button, a, label {
     user-select: none !important;
     -webkit-user-select: none !important;
@@ -50,7 +45,6 @@ div, span, p, h1, h2, h3, h4, h5, h6, button, a, label {
     -ms-user-select: none !important;
 }
 
-/* 禁用图片拖拽 */
 img {
     -webkit-user-drag: none !important;
     -khtml-user-drag: none !important;
@@ -60,13 +54,11 @@ img {
     pointer-events: none;
 }
 
-/* 确保按钮可以点击但不能选择文本 */
 button {
     pointer-events: auto;
     cursor: pointer;
 }
 
-/* 预加载动画 */
 #preloader {
     position: fixed;
     top: 0;
