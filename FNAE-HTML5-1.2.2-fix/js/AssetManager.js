@@ -1,11 +1,9 @@
-// èµ„æºç®¡ç†å™¨
 class AssetManager {
     constructor() {
         this.images = {};
         this.sounds = {};
         this.loaded = false;
         
-        // åˆ†ç±»éŸ³é‡è®¾ç½®
         this.volumeSettings = this.loadVolumeSettings();
     }
     
@@ -141,7 +139,6 @@ class AssetManager {
             } else if (key === 'ventCrawling') {
                 categoryVolume *= this.volumeSettings.ventCrawling;
             } else if (key === 'vents' || key === 'ambience' || key === 'staticLoop' || key === 'static' || key === 'blip' || key === 'Blip') {
-                // æ¸¸æˆèƒŒæ™¯éŸ³ä¹ï¼šåŒ…æ‹¬é€šé£Žå£å£°éŸ³ã€é™æ€å™ªå£°ã€æ‘„åƒæœºåˆ‡æ¢å£°ç­‰
                 categoryVolume *= this.volumeSettings.gameBg;
             }
             

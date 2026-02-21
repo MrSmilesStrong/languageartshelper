@@ -1,0 +1,79 @@
+.
+├── FNAE-HTML5-1.2.2-fix
+│   ├── assets
+│   │   ├── images
+│   │   │   ├── Cam1.png
+│   │   │   ├── Cam10.png
+│   │   │   ├── Cam11.png
+│   │   │   ├── Cam2.png
+│   │   │   ├── Cam3.png
+│   │   │   ├── Cam4.png
+│   │   │   ├── Cam5.png
+│   │   │   ├── Cam6.png
+│   │   │   ├── Cam7.png
+│   │   │   ├── Cam8.png
+│   │   │   ├── Cam9.png
+│   │   │   ├── FNAE-Map-layout.png
+│   │   │   ├── Warningheavy.png
+│   │   │   ├── Warninglight.png
+│   │   │   ├── cutscene.png
+│   │   │   ├── enemyep1.png
+│   │   │   ├── enemyep4.png
+│   │   │   ├── ep1.png
+│   │   │   ├── ep4.png
+│   │   │   ├── exp2.png
+│   │   │   ├── fa3.png
+│   │   │   ├── front.png
+│   │   │   ├── goldenstephen.png
+│   │   │   ├── jump.png
+│   │   │   ├── jumptrump.png
+│   │   │   ├── menubackground.png
+│   │   │   ├── mrstephen.png
+│   │   │   ├── night6.png
+│   │   │   ├── original.png
+│   │   │   ├── scaryep.png
+│   │   │   ├── scaryhawk.png
+│   │   │   ├── scarytrump.png
+│   │   │   ├── star.png
+│   │   │   ├── trump.png
+│   │   │   ├── trump2.png
+│   │   │   ├── trump3.png
+│   │   │   ├── trump4.png
+│   │   │   ├── trump5.png
+│   │   │   └── winscreen.png
+│   │   ├── sounds
+│   │   │   ├── 1.ogg
+│   │   │   ├── 2.ogg
+│   │   │   ├── Blip.ogg
+│   │   │   ├── Crank1.ogg
+│   │   │   ├── Crank2.ogg
+│   │   │   ├── Static_sound.ogg
+│   │   │   ├── chimes.ogg
+│   │   │   ├── ekg.wav
+│   │   │   ├── goldenstephenscare.ogg
+│   │   │   ├── hawking_shock.wav
+│   │   │   ├── jumpcare.ogg
+│   │   │   ├── music.ogg
+│   │   │   ├── music3.ogg
+│   │   │   ├── stephenjumpscare.ogg
+│   │   │   ├── vent-crawling.mp3
+│   │   │   ├── vents.ogg
+│   │   │   └── winmusic.ogg
+│   │   └── vedio
+│   │       └── 202512191935.webm
+│   ├── index.html
+│   ├── js
+│   │   ├── AssetManager.js
+│   │   ├── CameraSystem.js
+│   │   ├── EnemyAI.js
+│   │   ├── Game.js
+│   │   ├── GameState.js
+│   │   ├── InputHandler.js
+│   │   ├── ScaryFaceFlicker.js
+│   │   ├── StaticNoise.js
+│   │   ├── UIManager.js
+│   │   └── main.js
+│   └── style.css
+└── tree_output.txt
+
+7 directories, 70 files

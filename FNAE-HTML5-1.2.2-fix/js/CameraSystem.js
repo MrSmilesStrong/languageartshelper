@@ -1,3 +1,13 @@
+const BASE_PATH = "/FNAE-HTML5-1.2.2-fix/assets/sounds/";
+
+const lureSounds = {
+    "1": new Audio(BASE_PATH + "1.ogg"),
+    "2": new Audio(BASE_PATH + "2.ogg")
+};
+
+lureSounds["1"].preload = "auto";
+lureSounds["2"].preload = "auto";
+
 // Camera system management
 class CameraSystem {
     constructor(game) {
@@ -660,14 +670,16 @@ class CameraSystem {
             this.lastEpLocation = currentEpLocation;
         }
         
-        // äº¤æ›¿æ’­æ”¾ 1.ogg å’Œ 2.ogg
-        const soundFile = this.currentSoundToggle ? '2.ogg' : '1.ogg';
+        const soundKey = this.currentSoundToggle ? "2" : "1";
         this.currentSoundToggle = !this.currentSoundToggle;
-        
-        // åˆ›å»ºå¹¶æ’­æ”¾éŸ³é¢‘
-        const audio = new Audio(`assets/sounds/${soundFile}`);
-        audio.play().catch(e => console.log('éŸ³é¢‘æ’­æ”¾å¤±è´¥:', e));
-        
+
+        const sound = lureSounds[soundKey];
+
+        sound.currentTime = 0;
+        sound.play().catch(err => {
+            console.log("Audio play failed:", err);
+        });
+
         // æ£€æŸ¥å½“å‰ä½ç½®æ˜¯å¦å·²ç»ç”¨å®Œ2æ¬¡
         let canAttract = true;
         if (this.locationAttractCount[currentCam] >= this.maxLocationAttractCount) {
