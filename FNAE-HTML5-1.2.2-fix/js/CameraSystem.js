@@ -1,5 +1,3 @@
-const BASE_PATH = "/FNAE-HTML5-1.2.2-fix/assets/sounds/";
-
 const lureSounds = {
     "1": new Audio(BASE_PATH + "1.ogg"),
     "2": new Audio(BASE_PATH + "2.ogg")
@@ -433,7 +431,7 @@ class CameraSystem {
         // æ˜¾ç¤ºéœé‡‘ï¼ˆå¦‚æžœæ¿€æ´»ä¸”åœ¨cam6ï¼‰
         if (hawkingActive && currentCam === 'cam6') {
             const hawkingImg = document.createElement('img');
-            hawkingImg.src = '/FNAE-HTML5-1.2.2-fix/assets/images/mrstephen.png';
+            hawkingImg.src = 'assets/images/mrstephen.png';
             hawkingImg.style.position = 'absolute';
             hawkingImg.className = 'visible hawking-character';
             hawkingImg.style.zIndex = '3'; // Hawking åœ¨æœ€ä¸Šå±‚
@@ -555,7 +553,7 @@ class CameraSystem {
         
         // æ·»åŠ åœ°å›¾å›¾ç‰‡
         const mapImg = document.createElement('img');
-        mapImg.src = '/FNAE-HTML5-1.2.2-fix/assets/images/FNAE-Map-layout.png';
+        mapImg.src = 'assets/images/FNAE-Map-layout.png';
         mapImg.style.width = '100%';
         mapImg.style.height = 'auto';
         mapImg.style.display = 'block';
