@@ -23,9 +23,7 @@ class InputHandler {
     }
 
     handleKeyPress(e) {
-        // ==================== ä½œå¼Šé”®ï¼ˆç”Ÿäº§çŽ¯å¢ƒè¯·æ³¨é‡ŠæŽ‰ï¼‰ ====================
-        
-        /* // F6 ä½œå¼Šé”®ï¼šç«‹å³è§¦å‘ç‰¹æœ—æ™®è¿›å…¥ç®¡é“ï¼ˆæµ‹è¯•éŸ³æ•ˆç”¨ï¼‰
+
         if (e.key === 'F6') {
             e.preventDefault();
             if (this.game.state.isGameRunning && this.game.enemyAI.trump.hasSpawned) {
@@ -34,6 +32,7 @@ class InputHandler {
                 
                 // å¼ºåˆ¶ç‰¹æœ—æ™®ä»Ž cam1 å¼€å§‹çˆ¬è¡Œ
                 this.game.enemyAI.trump.currentLocation = 'cam1';
+                this.game.enemyAI.epstein.currentLocation = 'cam2';
                 
                 // ç«‹å³æ’­æ”¾éŸ³æ•ˆï¼ˆä¸ç­‰å¾…å»¶è¿Ÿï¼‰- éŸ³é‡æ”¹ä¸º1.0ï¼ˆæœ€å¤§å€¼ï¼‰
                 console.log('Playing crawling sound immediately...');
@@ -135,7 +134,7 @@ class InputHandler {
                 }
             }
             return;
-        } */
+        }
         
         // ==================== ä½œå¼Šé”®ç»“æŸ ====================
         

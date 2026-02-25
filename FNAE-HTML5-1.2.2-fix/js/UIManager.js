@@ -90,14 +90,14 @@ class UIManager {
         leftArrows.style.flexShrink = '0';
         
         const arrowLeft1 = document.createElement('div');
-        arrowLeft1.innerHTML = 'â–²';
+        arrowLeft1.innerHTML = '\u25B2';
         arrowLeft1.style.color = '#fff';
         arrowLeft1.style.fontSize = '2vw';
         arrowLeft1.style.lineHeight = '1';
         leftArrows.appendChild(arrowLeft1);
         
         const arrowLeft2 = document.createElement('div');
-        arrowLeft2.innerHTML = 'â–²';
+        arrowLeft2.innerHTML = '\u25B2';
         arrowLeft2.style.color = '#fff';
         arrowLeft2.style.fontSize = '2vw';
         arrowLeft2.style.lineHeight = '1';
@@ -126,14 +126,14 @@ class UIManager {
         rightArrows.style.flexShrink = '0';
         
         const arrowRight1 = document.createElement('div');
-        arrowRight1.innerHTML = 'â–²';
+        arrowRight1.innerHTML = '\u25B2';
         arrowRight1.style.color = '#fff';
         arrowRight1.style.fontSize = '2vw';
         arrowRight1.style.lineHeight = '1';
         rightArrows.appendChild(arrowRight1);
         
         const arrowRight2 = document.createElement('div');
-        arrowRight2.innerHTML = 'â–²';
+        arrowRight2.innerHTML = '\u25B2';
         arrowRight2.style.color = '#fff';
         arrowRight2.style.fontSize = '2vw';
         arrowRight2.style.lineHeight = '1';
@@ -170,7 +170,7 @@ class UIManager {
         // Before panel opens: arrows point up â–²
         // Before panel closes: arrows point down â–¼
         arrows.forEach((arrow) => {
-            arrow.innerHTML = isOpen ? 'â–¼' : 'â–²';
+            arrow.innerHTML = isOpen ? '\u25BC' : '\u25B2';
         });
     }
 
@@ -451,7 +451,7 @@ class UIManager {
         
         // Top arrow (points left when closed)
         const arrowTop = document.createElement('div');
-        arrowTop.innerHTML = 'â—„';
+        arrowTop.innerHTML = '\u25C0';
         arrowTop.className = 'camera-arrow';
         arrowTop.style.color = '#fff';
         arrowTop.style.fontSize = '1.8vw';
@@ -461,7 +461,7 @@ class UIManager {
         
         // Second arrow
         const arrowTop2 = document.createElement('div');
-        arrowTop2.innerHTML = 'â—„';
+        arrowTop2.innerHTML = '\u25C0';
         arrowTop2.className = 'camera-arrow';
         arrowTop2.style.color = '#fff';
         arrowTop2.style.fontSize = '1.8vw';
@@ -491,7 +491,7 @@ class UIManager {
         
         // Bottom arrow
         const arrowBottom = document.createElement('div');
-        arrowBottom.innerHTML = 'â—„';
+        arrowBottom.innerHTML = '\u25C0';
         arrowBottom.className = 'camera-arrow';
         arrowBottom.style.color = '#fff';
         arrowBottom.style.fontSize = '1.8vw';
@@ -501,7 +501,7 @@ class UIManager {
         
         // Second bottom arrow
         const arrowBottom2 = document.createElement('div');
-        arrowBottom2.innerHTML = 'â—„';
+        arrowBottom2.innerHTML = '\u25C0';
         arrowBottom2.className = 'camera-arrow';
         arrowBottom2.style.color = '#fff';
         arrowBottom2.style.fontSize = '1.8vw';
