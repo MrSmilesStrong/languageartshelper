@@ -203,47 +203,47 @@ class EnemyAI {
         
         // æ¯ä¸ªæ‘„åƒå¤´ä½¿ç”¨çš„è§’è‰²å›¾ç‰‡ï¼ˆæ ¹æ®è·ç¦»åŠžå…¬å®¤è¿œè¿‘ï¼‰
         this.characterImages = {
-            'cam11': '/FNAE-HTML5-1.2.2-fix/assets/images/enemyep1.png',
-            'cam10': '/FNAE-HTML5-1.2.2-fix/assets/images/ep1.png',
-            'cam1': '/FNAE-HTML5-1.2.2-fix/assets/images/ep4.png',
-            'cam9': '/FNAE-HTML5-1.2.2-fix/assets/images/enemyep1.png',
-            'cam8': '/FNAE-HTML5-1.2.2-fix/assets/images/enemyep1.png',
-            'cam7': '/FNAE-HTML5-1.2.2-fix/assets/images/enemyep1.png',
-            'cam6': '/FNAE-HTML5-1.2.2-fix/assets/images/enemyep1.png',
-            'cam5': '/FNAE-HTML5-1.2.2-fix/assets/images/enemyep4.png',
-            'cam4': '/FNAE-HTML5-1.2.2-fix/assets/images/ep1.png',
-            'cam3': '/FNAE-HTML5-1.2.2-fix/assets/images/ep4.png',
-            'cam2': '/FNAE-HTML5-1.2.2-fix/assets/images/enemyep1.png',
+            'cam11': 'assets/images/enemyep1.png',
+            'cam10': 'assets/images/ep1.png',
+            'cam1': 'assets/images/ep4.png',
+            'cam9': 'assets/images/enemyep1.png',
+            'cam8': 'assets/images/enemyep1.png',
+            'cam7': 'assets/images/enemyep1.png',
+            'cam6': 'assets/images/enemyep1.png',
+            'cam5': 'assets/images/enemyep4.png',
+            'cam4': 'assets/images/ep1.png',
+            'cam3': 'assets/images/ep4.png',
+            'cam2': 'assets/images/enemyep1.png',
         };
         
         // Night 6 ä¸“ç”¨å›¾ç‰‡ï¼ˆå¸¦ç”µçœ¼ï¼‰
         this.characterImagesNight6 = {
-            'cam11': '/FNAE-HTML5-1.2.2-fix/assets/images/enemyep1_night6.png',
-            'cam10': '/FNAE-HTML5-1.2.2-fix/assets/images/ep1_night6.png',
-            'cam1': '/FNAE-HTML5-1.2.2-fix/assets/images/ep4_night6.png',
-            'cam9': '/FNAE-HTML5-1.2.2-fix/assets/images/enemyep1_night6.png',
-            'cam8': '/FNAE-HTML5-1.2.2-fix/assets/images/enemyep1_night6.png',
-            'cam7': '/FNAE-HTML5-1.2.2-fix/assets/images/enemyep1_night6.png',
-            'cam6': '/FNAE-HTML5-1.2.2-fix/assets/images/enemyep1_night6.png',
-            'cam5': '/FNAE-HTML5-1.2.2-fix/assets/images/enemyep4_night6.png',
-            'cam4': '/FNAE-HTML5-1.2.2-fix/assets/images/ep1_night6.png',
-            'cam3': '/FNAE-HTML5-1.2.2-fix/assets/images/ep4_night6.png',
-            'cam2': '/FNAE-HTML5-1.2.2-fix/assets/images/enemyep1_night6.png',
+            'cam11': 'assets/images/enemyep1_night6.png',
+            'cam10': 'assets/images/ep1_night6.png',
+            'cam1': 'assets/images/ep4_night6.png',
+            'cam9': 'assets/images/enemyep1_night6.png',
+            'cam8': 'assets/images/enemyep1_night6.png',
+            'cam7': 'assets/images/enemyep1_night6.png',
+            'cam6': 'assets/images/enemyep1_night6.png',
+            'cam5': 'assets/images/enemyep4_night6.png',
+            'cam4': 'assets/images/ep1_night6.png',
+            'cam3': 'assets/images/ep4_night6.png',
+            'cam2': 'assets/images/enemyep1_night6.png',
         };
         
         // ç‰¹æœ—æ™®çš„å›¾ç‰‡é…ç½®ï¼ˆä½¿ç”¨ç»å¯¹è·¯å¾„ï¼‰
         this.trumpImages = {
-            'cam10': '/FNAE-HTML5-1.2.2-fix/assets/images/trump3.png',
-            'cam11': '/FNAE-HTML5-1.2.2-fix/assets/images/trump3.png',
-            'cam9': '/FNAE-HTML5-1.2.2-fix/assets/images/trump.png',
-            'cam8': '/FNAE-HTML5-1.2.2-fix/assets/images/trump5.png',
-            'cam7': '/FNAE-HTML5-1.2.2-fix/assets/images/trump3.png',
-            'cam6': '/FNAE-HTML5-1.2.2-fix/assets/images/trump3.png',
-            'cam5': '/FNAE-HTML5-1.2.2-fix/assets/images/trump2.png',
-            'cam1': '/FNAE-HTML5-1.2.2-fix/assets/images/trump4.png',
-            'cam2': '/FNAE-HTML5-1.2.2-fix/assets/images/trump4.png',
-            'cam3': '/FNAE-HTML5-1.2.2-fix/assets/images/trump2.png',
-            'cam4': '/FNAE-HTML5-1.2.2-fix/assets/images/trump3.png',
+            'cam10': 'assets/images/trump3.png',
+            'cam11': 'assets/images/trump3.png',
+            'cam9': 'assets/images/trump.png',
+            'cam8': 'assets/images/trump5.png',
+            'cam7': 'assets/images/trump3.png',
+            'cam6': 'assets/images/trump3.png',
+            'cam5': 'assets/images/trump2.png',
+            'cam1': 'assets/images/trump4.png',
+            'cam2': 'assets/images/trump4.png',
+            'cam3': 'assets/images/trump2.png',
+            'cam4': 'assets/images/trump3.png',
         };
         
         // å®šä¹‰ç§»åŠ¨è·¯å¾„å›¾ï¼ˆæ ¹æ®åœ°å›¾è¿žæŽ¥å…³ç³»ï¼Œåªèƒ½å‘å‰ç§»åŠ¨ï¼‰
@@ -1608,9 +1608,9 @@ class EnemyAI {
         
         // è®¾ç½®è­¦å‘Šå›¾ç‰‡
         if (this.hawking.warningLevel === 1) {
-            warningIcon.src = '/FNAE-HTML5-1.2.2-fix/assets/images/Warninglight.png';
+            warningIcon.src = 'assets/images/Warninglight.png';
         } else if (this.hawking.warningLevel === 2) {
-            warningIcon.src = '/FNAE-HTML5-1.2.2-fix/assets/images/Warningheavy.png';
+            warningIcon.src = 'assets/images/Warningheavy.png';
         }
     }
     
@@ -1675,7 +1675,7 @@ class EnemyAI {
         
         // åˆ›å»ºéœé‡‘å›¾ç‰‡ï¼ˆåœ¨æˆ¿é—´é‡Œï¼‰
         const hawkingImg = document.createElement('img');
-        hawkingImg.src = '/FNAE-HTML5-1.2.2-fix/assets/images/mrstephen.png';
+        hawkingImg.src = 'assets/images/mrstephen.png';
         hawkingImg.style.position = 'absolute';
         hawkingImg.style.left = '43.6%';
         hawkingImg.style.bottom = '27.4%';
@@ -1686,7 +1686,7 @@ class EnemyAI {
         
         // åˆ›å»ºå¯¼å¼¹å›¾ç‰‡ï¼ˆä»Žéœé‡‘ä½ç½®é£žå‘çŽ©å®¶ï¼‰
         const missileImg = document.createElement('img');
-        missileImg.src = '/FNAE-HTML5-1.2.2-fix/assets/images/front.png';
+        missileImg.src = 'assets/images/front.png';
         missileImg.style.position = 'absolute';
         missileImg.style.left = '25%';
         missileImg.style.top = '40%';
@@ -1704,7 +1704,7 @@ class EnemyAI {
         explosionImg.style.width = '50vw'; // å®¹å™¨å®½åº¦
         explosionImg.style.height = '50vh'; // å®¹å™¨é«˜åº¦
         explosionImg.style.zIndex = '4';
-        explosionImg.style.backgroundImage = 'url(/FNAE-HTML5-1.2.2-fix/assets/images/exp2.png)';
+        explosionImg.style.backgroundImage = 'url(assets/images/exp2.png)';
         explosionImg.style.backgroundSize = '400% auto'; // 4åˆ—ï¼Œé«˜åº¦è‡ªé€‚åº”
         explosionImg.style.backgroundRepeat = 'no-repeat';
         explosionImg.style.backgroundPosition = '0% 0%';
